@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+body {
+	background: url(../images/test.jpg) no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+}
+/*导航样式重写*/
+.navbar-default {
+	background: rgba(0,0,0,0.3);
+	z-index: 1;
+	border: none;
+}
+.navbar-brand {
+	color: #fff!important;
+	font-size: 20px;
+}
+.menu{
+	width: 20%;
+}
+.menu a {
+	color: #ddd!important;
+	font-size: 18px;
+}
+.menu a:hover{
+	color: #fff!important;
+}
+
+#tRecordCount {
+	color: red;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+
+/*重写分页标签的样式*/
+.pagination > li > a, .pagination > li > span {
+	color: #508b50;
+}
+
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+	color: #508b50;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+	border-color: #508b50;
+	background: #508b50;
+}
+
+.content {
+	word-wrap:break-word;
+}

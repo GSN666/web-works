@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+/*全局设置*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: "Titillium Web","Lantinghei SC","Microsoft YaHei","微软雅黑",sans-serif,Tahoma,Arial,;
+    background:#FFF;
+    line-height: 1;
+	font-weight: normal;
+	overflow-x: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased !important;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+a:hover{
+	text-decoration: none;
+}
+body a{
+    transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+input[type="button"],input[type="submit"]{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+button{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+  
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+html, body {
+	height: 100%;
+	width: 100%;
+}
+p {
+	line-height:1.9em!important;
+}
+/*模态层*/
+.layer{
+	display: block;
+	background: rgba(0,0,0,0.7);
+	width: 100%;
+	z-index: 10000000000;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+}
+.layer img{
+	display: block;
+	width: 40%;
+	height: 60%;
+	position: absolute;
+	left: 30%;
+	top: 20%;
+}
+/*hot图标*/
+.hot{
+	position: relative;
+}
+.hot img{
+	position: absolute;
+	left: 100px;
+	top: 0px;
+}
+.clearfix{
+	clear:both;
+}

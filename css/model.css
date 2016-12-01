@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+/*模态层样式*/
+#popup {
+	top:0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	display: none;
+	z-index: 1;
+}
+#dialog {
+	background: #fff;
+	padding: 10px 0;
+	min-width: 630px;
+	margin: 330px auto;
+	position: absolute;
+	text-align: center;
+	border: 15px solid #eee;
+	left: 25%;
+}
+.model form{
+	padding: 0 3%;
+}
+.model h4{
+	margin: 10px 0;
+}
+.model span{
+	margin-right: 25px;
+	vertical-align: middle;
+}
+.model h4 .shopping{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background: url(../images/icon.png) no-repeat -111px -26px;
+}
+.model h4 .payment{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background: url(../images/icon.png) no-repeat -154px -23px;
+}
+.model ul {
+	overflow: hidden;
+}
+.model ul li {
+	float: left;
+	margin-left: 11%;
+}
+.model input[type="text"] {
+	color: #485460;
+	width: 110%;
+	border: 1px solid #eee;
+	font-size: 14px;
+	padding: 1em;
+	margin: 0.5em 0;
+}
+.model input[type="text"]:hover {
+	border-color: #54ceb7;
+	color: #3498db;
+}
+.model .radio{
+	margin-top: 3%;
+	text-align: left;
+}
+.model .radio .rightRadio {
+	margin-left: 80px;
+}
+.model .radio input[type="radio"]{
+	display: none;
+}
+.radio .L-label,.radio .R-label{
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	line-height: 18px;
+	background: url(../images/icon.png)no-repeat -188px -25px;
+	margin-right: 8px;
+}
+.radio .payleft,.radio .payright{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background: url(../images/icon.png) no-repeat -32px -28px;
+}
+.radio .R-label{
+	background: url(../images/icon.png)no-repeat -190px -24px;
+}
+.radio .payright{
+	background: url(../images/icon.png) no-repeat -71px -26px;
+}
+.radio input[type="radio"]:checked + label{
+	background: url(../images/icon.png)no-repeat -215px -25px;
+}
+.model input[name="Date"]{
+	background: url(../images/calender.png) no-repeat 95% 50%;
+	cursor: pointer;
+	position: relative;
+}
+.model .button{
+	margin: 2em 0;
+}
+.button input[type="reset"] {
+	background: #3498db;
+	padding: 6px 50px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	display: block;
+}
+.button input[type="button"] {
+	background: #FA6E6F;
+	padding: 6px 20px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	display: block;
+}
+.button input[type="reset"]:hover {
+	background: #2980db;
+}
+.button input[type="button"]:hover {
+	background: #FA5252;
+}
+.button a {
+	display: block;
+	background: #1abc9c;
+	padding: 6px 10px;
+	color: #fff;
+	font-size: 16px;
+}
+.button a:hover {
+	background: #16a085;
+}
+#dialog button{
+	padding: 0 0 7px 0;
+	width: 32px;
+	height: 32px;
+	line-height: 28px;
+	position: absolute;
+	right: -46px;
+	top: -47px;
+	font-size: 28px;
+}
